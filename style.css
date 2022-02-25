@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+:root{
+    /* (main BG) */
+    --Very-dark-blue: hsl(217, 54%, 11%);
+    /* (card BG) */
+    --Very-dark-blue: hsl(216, 50%, 16%);
+    /* (line) */
+    --Very-dark-blue: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    width: 375px;
+    margin-top: 60px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 18px;
+}
+
+.image-equilibrium{
+    width: 85%;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.container h3{
+    color: hsl(0, 0%, 100%);
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.container p{
+    color: hsl(215, 51%, 70%);
+    margin-left: 30px;
+    padding-top: 11px;
+}
+
+.iconetherium{
+    position: relative;
+    /* Adjust these values accordingly */
+    top: 2px;
+    left: 2px;
+    width: 15px !important;
+    height: 20px !important;
+    margin-left: 30px;
+    
+}
+
+hr{
+    /* color:hsl(215, 51%, 70%); */
+    margin: 20px 30px 15px 30px;
+    background-color: hsl(215, 32%, 27%);
+}
+
+.icontext{
+    color:hsl(178, 100%, 50%);
+}
+
+.iconclock{
+    position: relative;
+    top: 2px;
+    padding-left: 123px;
+}
+
+.clocktext{
+    color:hsl(215, 51%, 70%);
+}
+
+.iconavatar{
+    width: 35px !important;
+    height: 35px !important;
+    margin-left: 30px;
+    border: 10px hsl(0, 0%, 100%) !important;
+    margin-bottom: 35px;
+}
+
+.textavatar{
+    position: relative;
+    top: -45px;
+    color:hsl(215, 51%, 70%);
+}
+
+.textavatar1{
+    position: relative;
+    top: -45px;
+    color:hsl(0, 0%, 100%);
+}
+
+@media only screen and (max-width: 375px){
+    .container{
+        width: 320px;
+    }
+
+    .image-equilibrium{
+        width: 88%;
+        border-radius: 10px;
+        margin: 30px 30px 30px 20px;
+    }
+
+    .container h3 {
+        margin-left: 20px;
+    }
+
+    .container p{
+        margin-left: 20px;
+    }
+
+    .iconavatar, .iconetherium{
+        margin-left: 20px;
+       }
+
+    .iconclock{
+        position: relative;
+        top: 2px;
+        padding-left: 80px;
+    }
+
+    hr{
+        /* color:hsl(215, 51%, 70%); */
+        margin: 20px 30px 15px 20px;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
